@@ -24,6 +24,7 @@ header {
     border-color: #b4b4b4;
     color: black;
     padding: 33px 50px 49px 50px;
+
 }
 
 #Name {
@@ -35,15 +36,12 @@ header {
     float: left;
     margin: -33px -25px -30px 30px;
     position: fixed;
-    text-decoration: none;
 }
 
 #Name a {
     color: #ffffff;
     text-decoration: none;
 }
-
-/*Nav*/
 
 nav {
     margin: -5px 150px 0px 0px;
@@ -68,33 +66,64 @@ li:not(:last-child)
     font-size: 20px;
     text-decoration: none;
     font-family: 'arial', 'helvetica';
-
+    text-decoration: none;
 }
 
 a:hover {
     color: #4aaaa5;
 }
 
-
-#about-me {
+#Portfolio {
     background-color: #ffffff;
     color: #4aaaa5;
-    margin: 20px 75px 0px 60px;
+    margin: 15px 75px 0px 60px;
     font-family: "times"; 
     font-size: 18px;
     width: 650px;
-    height: 400px;
+    height: 495px;
     padding: 15px;
     border-style: solid;
     border-color: #b4b4b4;
     border-width: 1px;
 }
-#about-me-header
+#Portfolio-header
 {
-	padding: 5px;
-	margin: 0px -5px 0px 5px; 
-	border-bottom: solid;
-	border-color: #b4b4b4;
+    padding: -25px;
+    margin: -16px -5px 0px 5px; 
+    border-bottom: solid;
+    border-color: #b4b4b4;
+    font-size: 24px;
+    line-height: 3px;
+    margin-bottom: 5px;
+}
+.gallery {
+    position: relative;
+    margin: 7px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 120px;
+}
+
+gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.desc {
+    position: absolute;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    width:  300px;
+    background-color: #4aaaa5; 
+    margin: 65px 0px 125px 0px;
+}
+
 }
 img {
     float: left;
@@ -104,46 +133,45 @@ img {
     margin: 15px 0px 0px -5px;
 }
 
-.about-me-content 
-{
-    background-color: #ffffff;
-    color: #777777;
-    margin: -5px 0px 0px 5px;
-    font-family: "helvetica";
-    font-size: 18px;
-    line-height: 1.8;
-}
 
 .imgclass1 {
     float: left;
-    margin: 0px 0px 0px 0px;
     width:72px; height:75px;
     padding: 15px 10px 0px 0px;
     margin: 15px 0px 0px 5px;
 
 }
+.imgclass6 {
+    float: left;
+    width: 900px;
+    height: 120px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
 
 #connect-with-me-header
 {
-	padding: 5px;
-	margin: 0px -5px 0px 4px; 
-	border-bottom: solid;
-	border-color: #b4b4b4;
+    margin: 0px 0px 0px 4px; 
+    border-bottom: solid;
+    border-color: #b4b4b4;
 }
 
 #connect-with-me {
     background-color: #ffffff;
     color: #4aaaa5;
-    margin: -432px 425px 0px 25px;
+    margin: -528px 430px 0px 30px;
     font-family: "times"; 
     text-align: center;
     width: 270px;
     height: 200px;
-    padding: 15px;
+    padding: 10px 10px 10px 10px;
     border-style: solid;
     border-color: #b4b4b4;
     border-width: 1px;
     float: right;
+    line-height: .5;
 }
 
 footer {
@@ -162,3 +190,4 @@ footer {
     margin-top: -50px;
     height: 50px;
 }
+
