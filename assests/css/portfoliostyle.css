@@ -121,6 +121,14 @@ gallery:hover
 {
     width: 100%;
     height: 100%;
+    opacity: 1.0;
+}
+
+.gallery img:hover 
+{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
 }
 
 .desc 
