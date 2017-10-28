@@ -1,4 +1,5 @@
-body {
+body 
+{
 	background: url("http://www.powerpointhintergrund.com/uploads/carbon-fiber-texture-and-pattern-28.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,28 +7,31 @@ body {
 	padding: 0;
 	margin: 0;
 	height: 100%;
-
 }
 
-.content {
+.content 
+{
   min-height: 100%
   padding: 45px;
 }
-.content-inside {
+
+.content-inside 
+{
   padding: 20px;
   padding-bottom: 50px;
 }
-header {
 
+header 
+{
     background-color: #ffffff;
     border-bottom: solid;
     border-color: #b4b4b4;
     color: black;
     padding: 33px 50px 49px 50px;
-
 }
 
-#Name {
+#Name 
+{
     background-color: #4aaaa5;
     font-size: 36px;
     color: #ffffff;
@@ -38,22 +42,26 @@ header {
     position: fixed;
 }
 
-#Name a {
+#Name a 
+{
     color: #ffffff;
     text-decoration: none;
 }
+
 a:hover 
 {
     color: darkgray;
 }
 
-nav {
+nav 
+{
     margin: -5px 150px 0px 0px;
     float: right;
     margin-left: auto;  
 }
 
-.primary-nav li {
+.primary-nav li 
+{
     display: inline-block;
     padding: 0 10px;
     vertical-align: top;
@@ -72,12 +80,14 @@ li:not(:last-child)
     font-family: 'arial', 'helvetica';
     text-decoration: none;
 }
+
 a:hover 
 {
     color: #4aaaa5;
 }
 
-#Contact {
+#Contact 
+{
     background-color: #ffffff;
     color: #4aaaa5;
     margin: 15px 75px 0px 60px;
@@ -90,6 +100,7 @@ a:hover
     border-color: #b4b4b4;
     border-width: 1px;
 }
+
 #Contact-header
 {
 	padding: -25px;
@@ -108,10 +119,10 @@ a:hover
     color: #777777;   
     box-sizing: border-box;
     font-family: Helvetica;
-
 }
 
-input[type=text] {
+input[type=text] 
+{
     width: 100%;
     padding: 5px 5px;
     margin: 8px 0;
@@ -121,7 +132,9 @@ input[type=text] {
     background-color: #f8f8f8;
     resize: none;
 }
-textarea {
+
+textarea 
+{
     width: 100%;
     height: 150px;
     padding: 10px 5px;
@@ -132,8 +145,9 @@ textarea {
     background-color: #f8f8f8;
     resize: none;
 }
+
 input[type=submit]
-    {
+{
     background-color: #4aaaa5;
     border: none;
     color: white;
@@ -143,9 +157,8 @@ input[type=submit]
     margin: 4px 2px;
     cursor: pointer;
 }
-
-}
-img {
+img 
+{
     float: left;
     margin: 0px 0px 0px 0px;
     width:200px; height:200px;
@@ -169,34 +182,34 @@ img {
     width:72px; height:75px;
     padding: 15px 10px 0px 0px;
     margin: 15px 0px 0px 5px;
-
 }
 
-#connect-with-me-header
+#connect-with-me 
 {
-	margin: 0px 0px 0px 4px; 
-	border-bottom: solid;
-	border-color: #b4b4b4;
-}
-
-#connect-with-me {
     background-color: #ffffff;
     color: #4aaaa5;
-    margin: -482px 430px 0px 30px;
+    margin: -482px 415px 7px 790px;
     font-family: "times"; 
     text-align: center;
     width: 270px;
     height: 200px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px;
     border-style: solid;
     border-color: #b4b4b4;
     border-width: 1px;
-    float: right;
-    line-height: .5;
+    position: fixed;
 }
 
-footer {
+#connect-with-me-header
+{
+    padding: 5px;
+    margin: 0px -5px 0px 4px; 
+    border-bottom: solid;
+    border-color: #b4b4b4;
+}
 
+footer 
+{
     background-color: #666666;
     border-top: solid;
     border-color: #4aaaa5;

@@ -6,19 +6,20 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
-
 }
 
-.content {
+.content 
+{
   min-height: 100%
   padding: 45px;
 }
+
 .content-inside {
   padding: 20px;
   padding-bottom: 50px;
 }
-header {
-
+header 
+{
     background-color: #ffffff;
     border-bottom: solid;
     border-color: #b4b4b4;
@@ -26,7 +27,8 @@ header {
     padding: 33px 50px 49px 50px;
 }
 
-#Name {
+#Name 
+{
     background-color: #4aaaa5;
     font-size: 36px;
     color: #ffffff;
@@ -38,20 +40,23 @@ header {
     text-decoration: none;
 }
 
-#Name a {
+#Name a 
+{
     color: #ffffff;
     text-decoration: none;
 }
 
 /*Nav*/
 
-nav {
+nav 
+{
     margin: -5px 150px 0px 0px;
     float: right;
     margin-left: auto;  
 }
 
-.primary-nav li {
+.primary-nav li 
+{
     display: inline-block;
     padding: 0 10px;
     vertical-align: top;
@@ -71,15 +76,17 @@ li:not(:last-child)
 
 }
 
-a:hover {
+a:hover 
+{
     color: #4aaaa5;
 }
 
 
-#about-me {
+#about-me 
+{
     background-color: #ffffff;
     color: #4aaaa5;
-    margin: 20px 75px 0px 60px;
+    margin: 15px 75px 0px 60px;
     font-family: "times"; 
     font-size: 18px;
     width: 650px;
@@ -96,7 +103,8 @@ a:hover {
 	border-bottom: solid;
 	border-color: #b4b4b4;
 }
-img {
+img 
+{
     float: left;
     margin: 0px 0px 0px 0px;
     width:200px; height:200px;
@@ -114,7 +122,8 @@ img {
     line-height: 1.8;
 }
 
-.imgclass1 {
+.imgclass1 
+{
     float: left;
     margin: 0px 0px 0px 0px;
     width:72px; height:75px;
@@ -122,19 +131,11 @@ img {
     margin: 15px 0px 0px 5px;
 
 }
-
-#connect-with-me-header
+#connect-with-me 
 {
-	padding: 5px;
-	margin: 0px -5px 0px 4px; 
-	border-bottom: solid;
-	border-color: #b4b4b4;
-}
-
-#connect-with-me {
     background-color: #ffffff;
     color: #4aaaa5;
-    margin: -432px 425px 0px 25px;
+    margin: -482px 415px 7px 810px;
     font-family: "times"; 
     text-align: center;
     width: 270px;
@@ -143,11 +144,18 @@ img {
     border-style: solid;
     border-color: #b4b4b4;
     border-width: 1px;
-    float: right;
+    position: fixed;
+}
+#connect-with-me-header
+{
+	padding: 5px;
+	margin: 0px -5px 0px 4px; 
+	border-bottom: solid;
+	border-color: #b4b4b4;
 }
 
-footer {
-
+footer 
+{
     background-color: #666666;
     border-top: solid;
     border-color: #4aaaa5;
